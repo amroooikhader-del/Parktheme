@@ -1,7 +1,7 @@
 // import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 // import http from "@framework/utils/http";
 import Cookies from "js-cookie";
-import { useMutation } from "react-query";
+import { useMutation } from "@tanstack/react-query";
 
 export interface ForgetPasswordType {
   email: string;

@@ -1,7 +1,7 @@
 import { QueryOptionsType, Game } from "@framework/types";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http";
-import { useInfiniteQuery } from "react-query";
+import { useInfiniteQuery } from "@tanstack/react-query";
 import { useUI } from "@contexts/ui-context";
 import { useTranslation } from "next-i18next";
 type PaginatedGame = {

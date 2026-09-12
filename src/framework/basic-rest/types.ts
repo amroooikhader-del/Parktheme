@@ -1,4 +1,4 @@
-import { QueryKey } from "react-query";
+import { QueryKey } from "@tanstack/react-query";
 import { SSRConfig as i18nextSSRConfig } from "next-i18next";
 
 export type QueryOptionsType = {

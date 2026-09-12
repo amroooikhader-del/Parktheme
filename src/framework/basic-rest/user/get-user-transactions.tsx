@@ -2,7 +2,7 @@ import { QueryOptionsType, Transaction } from "@framework/types";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http";
 import httpBackend from "@framework/utils/http-backend";
-import { useInfiniteQuery } from "react-query";
+import { useInfiniteQuery } from "@tanstack/react-query";
 type PaginatedTransaction = {
   data: Transaction[];
   paginatorInfo: any;

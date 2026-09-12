@@ -1,6 +1,6 @@
 
 import { getCommission, paginationParams } from "@services/user";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 export const useQueryGetCommission = (params: paginationParams) => {
     let dataResult = [];

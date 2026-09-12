@@ -1,7 +1,7 @@
 import { useUI } from "@contexts/ui-context";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http-backend";
-import { useMutation } from "react-query";
+import { useMutation } from "@tanstack/react-query";
 import { CookieStorage } from "@lib/cookie";
 import { CookieKeys } from "@lib/constant";
 import Router, { useRouter } from "next/router";

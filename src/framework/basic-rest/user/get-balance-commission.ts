@@ -1,5 +1,5 @@
 import { getBalanceCommission, paginationParams } from "@services/user";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 interface Props {
   user: string;

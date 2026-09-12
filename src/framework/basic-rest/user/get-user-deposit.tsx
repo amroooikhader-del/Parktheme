@@ -2,7 +2,7 @@ import { QueryOptionsType, Deposit } from "@framework/types";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http";
 import shuffle from "lodash/shuffle";
-import { useInfiniteQuery } from "react-query";
+import { useInfiniteQuery } from "@tanstack/react-query";
 type PaginatedDeposit = {
   data: Deposit[];
   paginatorInfo: any;

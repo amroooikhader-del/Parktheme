@@ -1,6 +1,6 @@
 import http from "@framework/utils/http";
 import { useRouter } from "next/router";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 export type ParamMemberTransaction = {
   limit: any;

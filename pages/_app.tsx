@@ -7,7 +7,7 @@ import {
   QueryClient,
   QueryClientProvider,
   type DehydratedState,
-} from "react-query";
+} from "@tanstack/react-query";
 import { ManagedUIContext } from "@contexts/ui-context";
 import "@fontsource/outfit";
 import "@fontsource/outfit/300.css";

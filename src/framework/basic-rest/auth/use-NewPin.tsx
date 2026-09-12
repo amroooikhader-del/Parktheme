@@ -1,6 +1,6 @@
 import { useUI } from "@contexts/ui-context";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
-import { useMutation } from "react-query";
+import { useMutation } from "@tanstack/react-query";
 import http from "@framework/utils/http-backend";
 import { toast } from "react-toastify";
 import { usePinAuthMutation } from "./use-pinAuth";

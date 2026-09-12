@@ -8,7 +8,7 @@ import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http-backend";
 import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 const Slider = ({ margin = true }: { margin?: boolean }) => {
   const { t } = useTranslation();

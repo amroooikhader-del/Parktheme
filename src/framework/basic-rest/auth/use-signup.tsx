@@ -1,7 +1,7 @@
 import { useUI } from "@contexts/ui-context";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http-backend";
-import { useMutation } from "react-query";
+import { useMutation } from "@tanstack/react-query";
 import { toast } from 'react-toastify';
 import { useTranslation } from "next-i18next";
 import { useLoginMutation } from "@framework/auth/use-login";

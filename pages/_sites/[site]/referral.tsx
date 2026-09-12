@@ -13,7 +13,7 @@ import DaterangePicker from "@components/common/daterangepicker";
 import CurrencyFormat from "react-currency-format";
 import { toast } from "react-toastify";
 import { useQueryGetCommission } from "@framework/user/get-commission";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import { getReferral } from "@services/user";
 import Pagination from "@components/common/datatable/pagination";
 import { useUserQuery } from "@framework/user/get-user-profile";

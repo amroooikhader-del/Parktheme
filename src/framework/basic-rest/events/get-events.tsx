@@ -1,5 +1,5 @@
 import http from "@framework/utils/http";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 export type TParamsGetEvents = {
   limit?: string |number;

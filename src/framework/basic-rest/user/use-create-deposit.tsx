@@ -1,7 +1,7 @@
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http-backend";
 import { AxiosResponse } from "axios";
-import { useMutation } from "react-query";
+import { useMutation } from "@tanstack/react-query";
 
 export interface depositType {
   amount: number;
@@ -10,7 +10,8 @@ export interface depositType {
   player_bank_account_name: string | number;
   player_bank_account_number: string | number;
   bank_type: any;
-  promotion_id : string
+  promotion_id: string;
+  payment_reference?: string;
 }
 async function deposit(input: depositType) {
   return http.post(API_ENDPOINTS.CREATE_DEPOSIT, input);

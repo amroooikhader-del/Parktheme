@@ -2,7 +2,7 @@ import { useUI } from "@contexts/ui-context";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 import http from "@framework/utils/http-backend";
 import { useState } from "react";
-import { useMutation, useQueryClient } from "react-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 export interface ValidationInputType {
   username: string;

@@ -1,6 +1,6 @@
 import http from "@framework/utils/http";
 import { useRouter } from "next/router";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 
 export type ParamInvoiceBet = {

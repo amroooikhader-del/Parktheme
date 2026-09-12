@@ -1,5 +1,5 @@
 import http from "@framework/utils/http-backend";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 
 export const availableUsername = (username: string) => {
   return http.get(`/users/admin/members/${username}`);
